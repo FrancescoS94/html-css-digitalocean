@@ -48,10 +48,15 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 /* SECTION */
 .sfondo1 {
     background-color: #0062ff;
-    padding-top: 140px;
+    padding: 140px 0;
+
 }
 
 .section {
@@ -63,17 +68,18 @@ h1 {
     font-size: 31px;
     margin-bottom: 25px;
 }
-
+/* RESPONSIVE TABLET */
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 55px;
-        margin-top: 100px;
+        font-size: 60px;
+        margin-top: 60px;
     }
 }
 
 .section .banner h4 {
     line-height: 1.6;
     font-size: 22px;
+    margin-bottom: 50px;
 }
 
 .section .jumbotron h4 {
@@ -99,13 +105,13 @@ h1 {
 
 .jbottom {
     padding: 30px;
+    border-top: 2px solid #f9fafc;
 }
 
 .button-1 {
     font-weight: bold;
     background-color: #0062ff;
     border: none;
-    border-radius: 10px,
 }
 
 .button-2 {
@@ -115,6 +121,11 @@ h1 {
     border: 1px solid #0062ff;
     border-radius: 5px;
     padding: 10px 35px;
+    margin-right: 10px;
+}
+
+.button-2:hover span {
+    color: black;
 }
 
 .button-3 {
@@ -122,9 +133,35 @@ h1 {
     background-color: white;
     border: 1px solid #0062ff;
     border-radius: 5px;
-    padding: 10px 25px;
+    padding: 10px 20px;
 }
 
 .jumbotron i {
     font-size: 20px;
+}
+
+/* SECTION 2 */
+.sfondo2 {
+    background-color: #f3f5f9;
+    padding: 50px;
+}
+
+.section2 h6 {
+    text-transform: uppercase;
+    color: #5b6987;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.section2 .row a,
+.section2 .row span {
+    padding-top: 35px;
+    color: #0062ff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.section2 .row a:hover {
+    color: #1633ff;
 }
