@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 /* NAVBAR */
 .sfondo-nav {
     background-color: white;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .navbar-brand img {
@@ -42,4 +46,85 @@
 .bt1:hover {
     background-color: #006aff;
     color: white;
+}
+
+/* SECTION */
+.sfondo1 {
+    background-color: #0062ff;
+    padding-top: 140px;
+}
+
+.section {
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 31px;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 55px;
+        margin-top: 100px;
+    }
+}
+
+.section .banner h4 {
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+.section .jumbotron h4 {
+    color: black;
+    font-weight: bold;
+}
+
+.container .jumbotron {
+    padding: 0;
+    background-color: white;
+}
+
+.jtop {
+    background-color: #f3f5f9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 25px 0;
+}
+
+.jcenter {
+    padding: 30px;
+}
+
+.jbottom {
+    padding: 30px;
+}
+
+.button-1 {
+    font-weight: bold;
+    background-color: #0062ff;
+    border: none;
+    border-radius: 10px,
+}
+
+.button-2 {
+    color: #0062ff;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #0062ff;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+
+.button-3 {
+    color: #0062ff;
+    background-color: white;
+    border: 1px solid #0062ff;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.jumbotron i {
+    font-size: 20px;
 }
