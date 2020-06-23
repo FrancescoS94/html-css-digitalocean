@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* NAVBAR */
+.sfondo-nav {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 29px;
+    margin: auto;
+}
+
+.navbar-nav li {
+    line-height: 20px;
+}
+
+.navbar-default .navbar-nav  li  a {
+    color: black;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav  li  a:hover {
+    color: #006aff;
+}
+
+.bt1 {
+    background-color: white;
+    color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.bt1:hover {
+    background-color: #006aff;
+    color: white;
+}
