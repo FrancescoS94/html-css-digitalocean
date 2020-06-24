@@ -52,6 +52,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+.navbar li a {
+    padding: 0;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+
 /* SECTION */
 .sfondo1 {
     background-color: #0062ff;
@@ -164,4 +170,63 @@ h1 {
 
 .section2 .row a:hover {
     color: #1633ff;
+}
+
+/* SECTION 3 */
+.sfondo3 {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.section3 h2 {
+    color: #031b4e;
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.section3 p {
+    font-size: 20px;
+    color: #6077a1;
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+.padd {
+    padding-bottom: 60px;
+}
+
+.section3 a {
+    color: #7babc8;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+.section3 a:hover {
+    color: #2a1b4e;
+}
+
+.section3 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section3 h4 {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .section3 .row {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section3 a {
+       display: block;
+       padding: 15px 10px;
+    }
 }
