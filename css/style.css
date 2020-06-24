@@ -94,6 +94,8 @@ h1 {
 }
 
 .container .jumbotron {
+    max-width: 360px;
+    margin: 0 auto 10px;
     padding: 0;
     background-color: white;
 }
@@ -172,6 +174,10 @@ h1 {
     color: #1633ff;
 }
 
+.section2 .row a:hover span {
+    color: #1633ff;
+}
+
 /* SECTION 3 */
 .sfondo3 {
     background-color: white;
@@ -193,7 +199,8 @@ h1 {
 }
 
 .padd {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-left: 2px solid gray;
 }
 
 .section3 a {
@@ -214,6 +221,7 @@ h1 {
 
 .section3 h4 {
     font-weight: bold;
+    font-size: 21px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -229,4 +237,48 @@ h1 {
        display: block;
        padding: 15px 10px;
     }
+}
+
+/* SECTION 4 */
+.sfondo4 {
+    background-color: #f3f5f9;
+    padding: 120px 0;
+}
+
+.section4 h2 {
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.section4 p {
+    color: #031b4e;
+    font-size: 20px;
+}
+
+.section4 img {
+    height: auto;
+    max-width: 75%;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+#ps4 {
+    color: #5b69a3;
+    font-size: 16px;
+}
+
+.section4 button {
+    border: 2px solid #0069ff;
+    background-color: #f3f5f9;
+    padding: 4px 4px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.section4 button:hover {
+    background-color: #0069ff;
 }
