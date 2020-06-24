@@ -328,3 +328,131 @@ h1 {
 .section5 a:hover span {
     color: #1633ff;
 }
+
+/* SECTION 6 */
+.sfondo6 {
+    background-color: #031b4e;
+    background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.section6 .s6 {
+    color: white;
+}
+
+.section6 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section6 .s6 p {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.section6 .row {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section6 .row p {
+    color: #9da6b0;
+}
+
+.section6 .text-center span {
+    color: #5890dd;
+}
+
+.section6 .text-center span:hover {
+    color: #1633ff;
+}
+
+.section6 .row span {
+    color: #00d7d2;
+}
+
+.section6 .row span:hover  {
+    color: #1633ff;
+}
+
+.section6 .row .span-w {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.span-t {
+    color: #00d7d2;
+}
+
+/* SECTION 6 */
+.sfondo7 {
+    background-color: #f3f5f9;
+    padding: 120px 0;
+}
+
+.section7 h2 {
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section7 .p-1 {
+    color: #031b4e;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.section7 p span {
+    color: #0069fe;
+}
+
+.section7 p span:hover {
+    color: #1633ff;
+}
+
+.c-box {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 60px 80px;
+    border-radius: 5px;
+}
+
+.section7 .img-1 img {
+    height: 30px;
+    width: auto;
+}
+
+.section7 .p-2 {
+    color: #5b6987;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.section7 .p-3 .p-p1 {
+    color: #5b6987;
+    font-size: 16px;
+}
+
+.section7 .p-3 .p-p2 {
+    color: #5b6987;
+    font-size: 12px;
+}
+
+.section7 button {
+    border: 2px solid #0069ff;
+    background-color: #f3f5f9;
+    padding: 4px 4px;
+    border-radius: 50%;
+    margin-top: 64px;
+    margin-right: 8px;
+}
+
+.section7 button:hover {
+    background-color: #0069ff;
+}
