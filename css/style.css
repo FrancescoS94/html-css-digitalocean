@@ -388,7 +388,7 @@ h1 {
     color: #00d7d2;
 }
 
-/* SECTION 6 */
+/* SECTION 7 */
 .sfondo7 {
     background-color: #f3f5f9;
     padding: 120px 0;
@@ -455,4 +455,37 @@ h1 {
 
 .section7 button:hover {
     background-color: #0069ff;
+}
+
+/* SECTION 7 */
+.sfondo8 {
+    background-color: #005dff;
+    padding: 64px 0;
+}
+
+.section8 h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section8 button {
+    color: #1633ff;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section8 button:hover {
+    background-color: rgba(225,225,225,0.9)
+}
+
+@media screen and (max-width: 768px) {
+    .section8 .row {
+        text-align: center;
+    }
 }
