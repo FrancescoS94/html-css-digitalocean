@@ -282,3 +282,49 @@ h1 {
 .section4 button:hover {
     background-color: #0069ff;
 }
+
+/* SECTION 5 */
+.sfondo5 {
+    background-color: white;
+    padding: 120px 0;
+}
+
+.sfondo5 h2 {
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sfondo5 img {
+    margin: 30px 0;
+}
+
+.sfondo5 h5 {
+    color: #031b4e;
+    font-size: 21px;
+}
+
+.section5 p {
+    color: #5b6987;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.section5 span {
+    vertical-align: middle;
+}
+
+.section5 a {
+    color: #0062ff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.section5 a:hover {
+    color: #1633ff;
+}
+
+.section5 a:hover span {
+    color: #1633ff;
+}
