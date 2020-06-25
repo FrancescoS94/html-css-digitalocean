@@ -58,15 +58,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
 }
 
+/* START COLOR */
+.white {
+    color: white;
+}
+
+.dark-blue {
+    color: #031b4e;
+}
+
+.navy-blue {
+    color: #0062ff;
+}
+
 /* SECTION */
 .sfondo1 {
     background-color: #0062ff;
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
     padding: 140px 0;
-
-}
-
-.section {
-    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -74,11 +86,18 @@ h1 {
     font-size: 31px;
     margin-bottom: 25px;
 }
-/* RESPONSIVE TABLET */
+
+/* Small devices Tablets  */
 @media screen and (min-width: 768px) {
-    h1 {
+    h1, .banner h4 {
         font-size: 60px;
         margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        text-align: center;
     }
 }
 
@@ -123,7 +142,6 @@ h1 {
 }
 
 .button-2 {
-    color: #0062ff;
     font-weight: bold;
     background-color: white;
     border: 1px solid #0062ff;
@@ -137,7 +155,6 @@ h1 {
 }
 
 .button-3 {
-    color: #0062ff;
     background-color: white;
     border: 1px solid #0062ff;
     border-radius: 5px;
@@ -162,19 +179,18 @@ h1 {
     padding-bottom: 50px;
 }
 
-.section2 .row a,
-.section2 .row span {
+.section2 i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.section2 .row a {
     padding-top: 35px;
-    color: #0062ff;
     font-size: 17px;
     text-decoration: none;
 }
 
 .section2 .row a:hover {
-    color: #1633ff;
-}
-
-.section2 .row a:hover span {
     color: #1633ff;
 }
 
@@ -185,7 +201,6 @@ h1 {
 }
 
 .section3 h2 {
-    color: #031b4e;
     font-weight: bold;
     font-size: 36px;
     padding-bottom: 20px;
@@ -200,7 +215,18 @@ h1 {
 
 .padd {
     margin-bottom: 60px;
-    border-left: 2px solid gray;
+}
+
+@media screen and (max-width: 767px) {
+    .section3 .padd {
+        border-bottom: 2px solid #e5e8ed;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section3 .padd {
+        border-left: 2px solid #e5e8ed;
+    }
 }
 
 .section3 a {
@@ -246,14 +272,12 @@ h1 {
 }
 
 .section4 h2 {
-    color: #031b4e;
     font-size: 36px;
     font-weight: bold;
     padding-bottom: 20px;
 }
 
 .section4 p {
-    color: #031b4e;
     font-size: 20px;
 }
 
@@ -290,7 +314,6 @@ h1 {
 }
 
 .sfondo5 h2 {
-    color: #031b4e;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -301,7 +324,6 @@ h1 {
 }
 
 .sfondo5 h5 {
-    color: #031b4e;
     font-size: 21px;
 }
 
@@ -311,8 +333,9 @@ h1 {
     margin-top: 20px;
 }
 
-.section5 span {
-    vertical-align: middle;
+.section5 i {
+    font-size: 20px;
+    vertical-align: text-top;
 }
 
 .section5 a {
@@ -325,8 +348,10 @@ h1 {
     color: #1633ff;
 }
 
-.section5 a:hover span {
-    color: #1633ff;
+@media screen and (max-width: 768px) {
+    .section5 .row {
+        text-align: center;
+    }
 }
 
 /* SECTION 6 */
@@ -336,10 +361,6 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     padding: 120px 0;
-}
-
-.section6 .s6 {
-    color: white;
 }
 
 .section6 h2 {
@@ -353,6 +374,15 @@ h1 {
     margin-bottom: 80px;
 }
 
+.section6 .text-center span {
+    color: #0069ef;
+}
+
+.section6 .s6 p span:hover {
+    color: #1633ff;
+    cursor: pointer;
+}
+
 .section6 .row {
     margin: 0 auto;
     width: 100%;
@@ -362,30 +392,52 @@ h1 {
     color: #9da6b0;
 }
 
-.section6 .text-center span {
-    color: #5890dd;
+table {
+    margin: 0 auto;
+    width: 100%;
 }
 
-.section6 .text-center span:hover {
-    color: #1633ff;
+.t-1, .t-2 {
+    margin-bottom: 30px;
 }
 
-.section6 .row span {
-    color: #00d7d2;
+.c-1, .c-2, .c-3 {
+    padding: 5px;
 }
 
-.section6 .row span:hover  {
-    color: #1633ff;
+.border-boot {
+    border-bottom: 1px solid white;
 }
 
-.section6 .row .span-w {
+.section6 a {
+    float: right;
+}
+
+.c-1 {
     color: white;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
-.span-t {
-    color: #00d7d2;
+.c-2 {
+    color: #939EB5;
+}
+
+.c-4 {
+    color: #00C8AF;
+}
+
+.section6 a, i {
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #1633ff;
+}
+
+.section6 i {
+    font-size: 20px;
+    margin-left: 5px;
+    vertical-align: top;
 }
 
 /* SECTION 7 */
@@ -395,14 +447,12 @@ h1 {
 }
 
 .section7 h2 {
-    color: #031b4e;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .section7 .p-1 {
-    color: #031b4e;
     font-size: 20px;
     margin-bottom: 70px;
 }
@@ -457,14 +507,13 @@ h1 {
     background-color: #0069ff;
 }
 
-/* SECTION 7 */
+/* SECTION 8 */
 .sfondo8 {
     background-color: #005dff;
     padding: 64px 0;
 }
 
 .section8 h2 {
-    color: white;
     font-size: 36px;
     font-weight: bold;
     margin-top: 20px;
@@ -473,8 +522,9 @@ h1 {
 .section8 button {
     color: #1633ff;
     font-weight: bold;
+    font-size: 16px;
     background-color: white;
-    padding: 15px 40px;
+    padding: 20px 35px;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -484,8 +534,94 @@ h1 {
     background-color: rgba(225,225,225,0.9)
 }
 
+.b-right {
+    text-align: right;
+}
+
 @media screen and (max-width: 768px) {
     .section8 .row {
         text-align: center;
+    }
+
+    .b-right {
+        text-align: center;
+    }
+}
+
+/* SECTION 9 */
+.sfondo9 {
+    background-color: #010e28;
+    padding: 15px 0;
+}
+
+.pad9 {
+    padding: 0 40px;
+}
+
+.sfondo9 h6 {
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.sfondo9 ul li {
+    color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sfondo9 ul li:hover {
+    color: white;
+}
+
+.foot {
+    border-top: 1px solid rgba(127, 134, 147, 0.5);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.sfondo9 i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    margin-right: 18px;
+}
+
+.sfondo9 i:hover {
+    color: white;
+}
+
+.marg-top {
+    margin-top: 15px;
+}
+
+.sfondo9 p {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+    width: calc(100% - 50px);
+    padding: 0 15px;
+    width: 80%;
+    text-align: center;
+    line-height: 1;
+}
+
+.section9 img, .section9 p {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .section9 .foot {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sfondo9 p {
+        text-align: left;
+    }
+
+    .marg-top {
+        text-align: right;
     }
 }
